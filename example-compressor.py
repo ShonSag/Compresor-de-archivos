@@ -2,7 +2,7 @@ from PIL import Image # python3 -m pip install Pillow
 
 import os
 
-downloadsFolder = "/Users/ramos/Downloads/"
+downloadsFolder = "/Users/[user]/Downloads/"
 
 if __name__ == "__main__":
     for filename in os.listdir(downloadsFolder):
